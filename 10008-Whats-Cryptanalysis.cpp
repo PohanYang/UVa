@@ -2,25 +2,25 @@
 #include <stdlib.h>
 #include <string.h>
 #include <algorithm>
+#include <stdio.h>
+
 using namespace std;
 
 int main(){
-    int n, len=0, countN[26];
-    char text[9999], over[9999], countO[26] ;
+    int n, len=0, countN[5000], m=-1;;
+    char t_text[9999], text[9999], over[9999], countO[5000] ;
     cin >> n;
     for(int i=0; i<n; i++){
+        gets(t_text);
         cin >> text;
         for(int j=0; j<=strlen(text); j++){
-            over[len+j] = text[j];
-        }
-        len = len + strlen(text);
-    }
-    for(int k=0; k<=len; k++){
+            if((text[j]>='a'&&text[j]<='z')||(text[j]>='A'&&text[j]<='Z')){
+                for(int k=0; k<=len; k++){
         if((over[k]>='a')&&(over[k]<='z'))
             over[k] = over[k] -32;
     }
     sort(over, over+len);
-    int m=-1;
+
     for(int l=0; l<=len; l++){
         if(m==-1){
             m = 0;
@@ -36,6 +36,10 @@ int main(){
             countN[m] = 1;
         }
     }
+            }
+        }
+    }
+
 
     int a, b, temp;
     for (a = len - 1; a > 0; a--)
