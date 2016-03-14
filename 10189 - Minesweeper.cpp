@@ -29,17 +29,17 @@ int main(){
                         bomb++;
                     if(matrix[j-1][k]=='*')
                         bomb++;
-                    if(matrix[j-1][k+1]=='*')
+                    if(k+1<m&&matrix[j-1][k+1]=='*')
                         bomb++;
                     if(matrix[j][k-1]=='*')
                         bomb++;
-                    if(matrix[j][k+1]=='*')
+                    if(k+1<m&&matrix[j][k+1]=='*')
                         bomb++;
-                    if(matrix[j+1][k-1]=='*')
+                    if(j+1<n&&matrix[j+1][k-1]=='*')
                         bomb++;
-                    if(matrix[j+1][k]=='*')
+                    if(j+1<n&&matrix[j+1][k]=='*')
                         bomb++;
-                    if(matrix[j+1][k+1]=='*')
+                    if(j+1<n&&k+1<m&&matrix[j+1][k+1]=='*')
                         bomb++;
 
                     cout << bomb;
