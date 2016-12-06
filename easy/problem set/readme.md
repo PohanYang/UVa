@@ -8,23 +8,23 @@ Code:
 ![d201](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_01.PNG)  
 
 Result:  
-![d202](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_02.PNG)  
+![d202](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_02.PNG)  
   
   
 Therefore, if we get the point to 2 dimesnsion array we can to every elements in this array.  
 But we can't use this method to get 2 dimesnsion array:  
-![d203](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_03.PNG)  
+![d203](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_03.PNG)  
 it will compiler error  
-![d204](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_04.PNG)  
+![d204](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_04.PNG)  
   
 it have different type in 2-d array.  
 In 1-d array we can pointer to array immediatly, but it will pointer to a list of array in 2-d array.  
 We have to method can pointer to 2-d array(even 3-d, 4-d...):  
   
 1.Directly pointer to head of array:  
-![d205](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_05.PNG)  
+![d205](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_05.PNG)  
   
 2.We change type from 2-d array type to pointer:  
-![d206](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_06.PNG)  
+![d206](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_06.PNG)  
   
 It will be sucessful get head of 2-d array!  
