@@ -19,7 +19,7 @@ it will compiler error
   
 it have different type in 2-d array.  
 In 1-d array we can pointer to array immediatly, but it will pointer to a list of array in 2-d array.  
-We have to method can pointer to 2-d array(even 3-d, 4-d...):  
+We have two method can pointer to 2-d array(even 3-d, 4-d...):  
   
 1.Directly pointer to head of array:  
 ![d205](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_05.PNG)  
