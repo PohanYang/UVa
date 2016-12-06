@@ -5,7 +5,7 @@
   
 In 2 dimesnsion array, it have continues memory allocate like this.  
 Code:  
-(https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_01.PNG)  
+![d201](https://github.com/PohanYang/UVa/blob/master/easy/problem%20set/img/d2_01.PNG)  
 Result:  
 ![d202](https://raw.githubusercontent.com/PohanYang/UVa/easy/problem set/img/d2_02.PNG)  
   
